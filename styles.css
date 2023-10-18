@@ -1,5 +1,9 @@
 * {
   box-sizing: border-box;
+  
+ 
+  
+
 }
 
 html {
@@ -11,6 +15,7 @@ html {
 html,
 body {
   margin: 0;
+  justify-items: center;
 }
 
 #modal {
@@ -27,16 +32,16 @@ body {
 }
 
 .modal-card {
-  padding: 3rem;
-  background-color: white;
+  padding: 2rem;
+  background-color: rgb(153, 24, 130);
   border-radius: 10px;
-  color: #000014;
+  color: #0c0cbb;
 }
 
 .root {
   text-align: center;
   min-height: 100vh;
-  background-color: #222;
+  background-color: #c843a2;
   padding: 1rem;
 }
 
@@ -46,7 +51,7 @@ body {
   margin: 1rem auto;
   border-radius: 2rem;
   padding: 2rem;
-  box-shadow: 0 0 2rem #000;
+  box-shadow: 0 0 2rem #0d0909;
   max-width: 600px;
   width: 100%;
 }
@@ -62,7 +67,7 @@ body {
   padding: 0.5rem 0.75rem;
   border: none;
   border-radius: 0.5rem;
-  color: inherit;
-  background-color: darkcyan;
+  color:inherit ;
+  background-color: rgb(27, 175, 39);
   cursor: pointer;
 }
